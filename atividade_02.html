@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Número Pares entre 100 e 1</h1>
+    <div id "pares"></div>
+    <script>
+        let resul = "";
+        for (let index = 100; index >=2; index-=2) {
+            resul += index +"</br>";
+            document.getElementById("pares").innerHTML = resul;
+            
+        }
+    </script>
+</body>
+</html>
